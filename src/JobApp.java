@@ -15,6 +15,7 @@ public class JobApp {
         String description;
         ArrayList<Job> jobs = new ArrayList<>();
         int counter = 1;
+        Job job2 = new Job();
 
 
         System.out.println("please enter in the information below. victor es mi mejores amigo");
@@ -22,16 +23,20 @@ public class JobApp {
 
             System.out.println("please enter your name");
             name = sc.nextLine();
+            job2.setName(name);
+
 
 
             System.out.println("please enter your email address");
             email = sc.nextLine();
+            job2.setEmail(email);
+
+            jobs.add(job2);
 
 
             System.out.println("please enter former jobs.");
             while(true){
                 Job job1 = new Job();
-                System.out.println(" ");
                 System.out.println("what was the name of your company? " + counter);
                 company = sc.nextLine();
                 job1.setCompany(company);
