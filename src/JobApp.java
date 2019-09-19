@@ -28,7 +28,7 @@ public class JobApp {
             email = sc.nextLine();
 
 
-            System.out.println("please enter former jobs.  if no more jobs to enter type stop");
+            System.out.println("please enter former jobs.");
             while(true){
                 Job job1 = new Job();
                 System.out.println(" ");
