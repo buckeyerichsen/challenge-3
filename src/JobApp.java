@@ -38,7 +38,6 @@ public class JobApp {
 
             while(true){
 
-            System.out.println("please enter former jobs.");
 
 
                 System.out.println("what was the name of your company? " + counter);
