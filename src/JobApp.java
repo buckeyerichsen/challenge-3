@@ -22,19 +22,21 @@ public class JobApp {
 
 
 
-        while(true){
             Job job1 = new Job();
+            Person person = new Person();
             System.out.println("please enter your name");
             name = sc.nextLine();
-            job1.setName(name);
+            person.setName(name);
 
 
 
             System.out.println("please enter your email address");
             email = sc.nextLine();
-            job1.setEmail(email);
+            person.setEmail(email);
 
 
+
+            while(true){
 
             System.out.println("please enter former jobs.");
 
@@ -69,6 +71,7 @@ public class JobApp {
                 counter = counter + 1;
 
         }
+            person.displaytext1();
             counter =1;
             for (Job job : jobs){
                 System.out.println("Job " + counter);
