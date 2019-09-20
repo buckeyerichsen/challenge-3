@@ -78,5 +78,7 @@ public class JobApp {
 
                 counter = counter + 1;
             }
+            counter = counter - 1;
+        System.out.println("number of previous jobs = " + counter );
     }
 }
