@@ -11,6 +11,8 @@ public class Job {
     public Job() {
     }
 
+
+
     public Job(String company, String jobTitle, String startDate, String endDate, String description) {
         this.company = company;
         this.jobTitle = jobTitle;
@@ -67,5 +69,7 @@ public class Job {
         System.out.println(getStartDate());
         System.out.println(getEndDate());
         System.out.println(getDescription());
+
+
     }
 }
